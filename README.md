@@ -3,7 +3,7 @@
 <div align="center">
   <img src="./icon.png" alt="LeagueUnlocked Icon" width="128" height="128">
   
-  [![Installer](https://img.shields.io/badge/Installer-Windows-blue)](https://github.com/AlbanCliquet/LeagueUnlocked/releases/latest)
+  [![Installer](https://img.shields.io/badge/Installer-Windows-blue)](https://github.com/Alban1911/LeagueUnlocked/releases/latest)
   [![Discord](https://img.shields.io/discord/1426680928759189545?color=5865F2&logo=discord&logoColor=white&label=Discord)](https://discord.com/invite/cDepnwVS8Z)
 </div>
 
@@ -51,7 +51,7 @@ skins/
 
 ## Getting Started
 
-1. **Download LeagueUnlocked**: Get the latest installer from our [releases page](https://github.com/AlbanCliquet/LeagueUnlocked/releases/latest)
+1. **Download LeagueUnlocked**: Get the latest installer from our [releases page](https://github.com/Alban1911/LeagueUnlocked/releases/latest)
 2. **Install the Tool**: Follow the installation instructions
 3. **Browse Skins**: Use this repository to preview available skins
 4. **Apply Skins**: Use LeagueUnlocked to apply any skin in-game
@@ -74,4 +74,4 @@ This repository is open source. The skin assets are property of Riot Games and a
 
 ---
 
-**Powered by [LeagueUnlocked](https://github.com/AlbanCliquet/LeagueUnlocked)**
+**Powered by [LeagueUnlocked](https://github.com/Alban1911/LeagueUnlocked)**
