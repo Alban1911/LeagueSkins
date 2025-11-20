@@ -1,9 +1,9 @@
 # ✨ LeagueSkins - League of Legends Skins Assets
 
 <div align="center">
-  <img src="./icon.png" alt="LeagueUnlocked Icon" width="128" height="128">
+  <img src="./icon.ico" alt="Rose Icon" width="128" height="128">
   
-  [![Installer](https://img.shields.io/badge/Installer-Windows-blue)](https://github.com/Alban1911/LeagueUnlocked/releases/latest)
+  [![Installer](https://img.shields.io/badge/Installer-Windows-blue)](https://github.com/Alban1911/Rose/releases/latest)
   [![Discord](https://img.shields.io/discord/1426680928759189545?color=5865F2&logo=discord&logoColor=white&label=Discord)](https://discord.com/invite/cDepnwVS8Z)
 </div>
 
@@ -11,9 +11,9 @@
 
 ## About
 
-This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **LeagueUnlocked** community.
+This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **Rose** community.
 
-**LeagueUnlocked** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
+**Rose** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
 
 ## Features
 
@@ -51,10 +51,10 @@ skins/
 
 ## Getting Started
 
-1. **Download LeagueUnlocked**: Get the latest installer from our [releases page](https://github.com/Alban1911/LeagueUnlocked/releases/latest)
+1. **Download Rose**: Get the latest installer from our [releases page](https://github.com/Alban1911/Rose/releases/latest)
 2. **Install the Tool**: Follow the installation instructions
 3. **Browse Skins**: Use this repository to preview available skins
-4. **Apply Skins**: Use LeagueUnlocked to apply any skin in-game
+4. **Apply Skins**: Use Rose to apply any skin in-game
 
 ## Community
 
@@ -66,7 +66,7 @@ Join our vibrant community for support, updates, and discussions:
 
 ## ⚖️ Legal Notice
 
-This project is for educational and personal use only. Please respect Riot Games' intellectual property rights and terms of service. LeagueUnlocked and this asset collection are not affiliated with or endorsed by Riot Games.
+This project is for educational and personal use only. Please respect Riot Games' intellectual property rights and terms of service. Rose and this asset collection are not affiliated with or endorsed by Riot Games.
 
 ## License
 
@@ -74,4 +74,4 @@ This repository is open source. The skin assets are property of Riot Games and a
 
 ---
 
-**Powered by [LeagueUnlocked](https://github.com/Alban1911/LeagueUnlocked)**
+**Powered by [Rose](https://github.com/Alban1911/Rose)**
