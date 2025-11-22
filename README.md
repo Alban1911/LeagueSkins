@@ -10,9 +10,9 @@
 
 ## About
 
-This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **Rose** community.
+This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **[Rose](https://github.com/Alban1911/Rose)** community.
 
-**Rose** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
+**[Rose](https://github.com/Alban1911/Rose)** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
 
 ## Features
 
@@ -52,16 +52,15 @@ skins/
 
 1. **Download Rose**: Get the latest installer from our [releases page](https://github.com/Alban1911/Rose/releases/latest)
 2. **Install the Tool**: Follow the installation instructions
-3. **Browse Skins**: Use this repository to preview available skins
-4. **Apply Skins**: Use Rose to apply any skin in-game
+3. **Apply Skins**: Use Rose to apply any skin in-game
 
-## Community
+### Contributing
 
-Join our vibrant community for support, updates, and discussions:
+LeagueSkins is open source! Contributions are welcome:
 
-- **Discord**: [Join our Discord server](https://discord.com/invite/cDepnwVS8Z)
-- **Issues**: Report bugs or request features
-- **Updates**: Stay informed about new releases
+- Report bugs or suggest features via GitHub Issues
+- Submit pull requests for improvements
+- Join our [Discord](https://discord.com/invite/cDepnwVS8Z) for discussions
 
 ## ⚖️ Legal Notice
 
