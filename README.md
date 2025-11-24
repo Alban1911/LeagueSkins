@@ -43,7 +43,7 @@ skins/
 ### File Organization
 
 - **Champion IDs**: Numeric identifiers (e.g., 1, 10, 101, etc.)
-- **Skin & Chroma IDs**: Calculated as `champion_id * 1000 + skin_number` - can be 4, 5, or 6 digits (e.g., 1000, 10000, 100000)
+- **Skin & Chroma IDs**: Calculated as `champion_id * 1000 + skin_number`
 - **File Types**: 
   - `.png` - Preview images (only included for skins with custom forms)
   - `.zip` - Complete skin asset packages
