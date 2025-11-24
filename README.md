@@ -19,6 +19,7 @@ This repository contains a comprehensive collection of League of Legends skin as
 - **Complete Skin Collection** - Access to all League of Legends skins
 - **Legacy & Limited Skins** - Unlock skins that are no longer available
 - **Chroma Support** - Full chroma collections for applicable skins
+- **Custom Forms Preview** - Preview images included only for skins with custom form variants
 - **Organized Structure** - Easy to navigate file organization
 - **Regular Updates** - Constantly updated with new skins and patches
 
@@ -28,16 +29,15 @@ This repository contains a comprehensive collection of League of Legends skin as
 skins/
 ├── {champion_id}/
 │   ├── {skin_id}/
-│   │   ├── {skin_id}.png          # Skin preview image
 │   │   ├── {skin_id}.zip          # Skin asset package
-│   │   └── {chroma_id}/           # Chroma variants (if available)
-│   │       ├── {chroma_id}.png    # Chroma preview image
-│   │       └── {chroma_id}.zip    # Chroma asset package
-│   └── {skin_id}/                 # Additional skins
-│       ├── {skin_id}.zip
-│       └── {chroma_id}/
-│           ├── {chroma_id}.png
-│           └── {chroma_id}.zip
+│   │   └── {chroma_id}/            # Chroma variants (if available)
+│   │       └── {chroma_id}.zip     # Chroma asset package
+│   └── {skin_id}/                  # Skins with custom forms
+│       ├── {skin_id}.png           # Base skin preview (only for custom forms)
+│       ├── {skin_id}.zip           # Skin asset package
+│       └── {form_id}/              # Custom form variants
+│           ├── {form_id}.png       # Form preview image
+│           └── {form_id}.zip       # Form asset package
 ```
 
 ### File Organization
@@ -45,7 +45,7 @@ skins/
 - **Champion IDs**: Numeric identifiers (e.g., 1, 10, 101, etc.)
 - **Skin & Chroma IDs**: Calculated as `champion_id * 1000 + skin_number` - can be 4, 5, or 6 digits (e.g., 1000, 10000, 100000)
 - **File Types**: 
-  - `.png` - Preview images
+  - `.png` - Preview images (only included for skins with custom forms)
   - `.zip` - Complete skin asset packages
 
 ## Getting Started
