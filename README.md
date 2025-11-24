@@ -72,4 +72,4 @@ This repository is open source. The skin assets are property of Riot Games and a
 
 ---
 
-**Powered by [Rose](https://github.com/Alban1911/Rose)**
+**Powered by [Rose](https://github.com/Alban1911/Rose)**.
