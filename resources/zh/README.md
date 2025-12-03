@@ -6117,7 +6117,7 @@ Complete mapping of all skin IDs to skin names, including chromas with preview i
 | [`145024`](/skins/145/145017/145024/145024.zip) | 电玩女神 卡莎 极速融解 | Kai'Sa | <img src="/assets/previews/145/145024.png" width="100" alt="Preview" /> |
 | [`145025`](/skins/145/145017/145025/145025.zip) | 电玩女神 卡莎 时光勇者 | Kai'Sa | <img src="/assets/previews/145/145025.png" width="100" alt="Preview" /> |
 | [`145026`](/skins/145/145026/145026.zip) | **K/DA ALL OUT 卡莎** | Kai'Sa |  |
-| [`145028`](/skins/145/145026/145028/145028.zip) | K/DA ALL OUT 卡莎 (BADDEST) | Kai'Sa | <img src="/assets/previews/145/145028.png" width="100" alt="Preview" /> |
+| [`145028`](/skins/145/145026/145028/145028.zip) | BADDEST | Kai'Sa | <img src="/assets/previews/145/145028.png" width="100" alt="Preview" /> |
 | [`145027`](/skins/145/145027/145027.zip) | **至臻 K/DA ALL OUT 卡莎** | Kai'Sa |  |
 | [`145029`](/skins/145/145029/145029.zip) | **神龙尊者 玉境灵龙 卡莎** | Kai'Sa |  |
 | [`145030`](/skins/145/145029/145030/145030.zip) | 神龙尊者 玉境灵龙 卡莎 登龙 | Kai'Sa | <img src="/assets/previews/145/145030.png" width="100" alt="Preview" /> |
