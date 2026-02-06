@@ -65,7 +65,7 @@ LeagueSkins is open source! Contributions are welcome:
 
 - Report bugs or suggest features via GitHub Issues
 - Submit pull requests for improvements
-- Join our [Discord](https://discord.com/invite/PHVUppft) for discussions
+- Join our [Discord](https://discord.com/invite/roseapp) for discussions
 
 ## Legal Disclaimer
 
