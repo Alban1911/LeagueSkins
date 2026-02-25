@@ -4,8 +4,8 @@
 
   <img src="./icon.ico" alt="Rose Icon" width="128" height="128">
 
-[![Installer](https://img.shields.io/badge/Installer-Windows-32A832)](https://github.com/Alban1911/Rose/releases/latest) [![Ko-Fi](https://img.shields.io/badge/KoFi-Donate-C03030?logo=ko-fi&logoColor=white)](https://ko-fi.com/roseapp) [![Discord](https://img.shields.io/discord/1465467335946272780?color=32A832&logo=discord&logoColor=white&label=Discord)](https://discord.com/invite/roseapp)  [![License](https://img.shields.io/badge/License-Open%20Source-C03030)](LICENSE)
-![GitHub all releases](https://img.shields.io/github/downloads/Alban1911/Rose/total?color=32A832)
+[![Installer](https://img.shields.io/badge/Installer-Windows-32A832)](https://gitlab.com/Alban1911/Rose/-/releases) [![Ko-Fi](https://img.shields.io/badge/KoFi-Donate-C03030?logo=ko-fi&logoColor=white)](https://ko-fi.com/roseapp) [![Discord](https://img.shields.io/discord/1465467335946272780?color=32A832&logo=discord&logoColor=white&label=Discord)](https://discord.com/invite/roseapp)  [![License](https://img.shields.io/badge/License-Open%20Source-C03030)](LICENSE)
+
 
 </div>
 
@@ -15,9 +15,9 @@
 
 ## About
 
-This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **[Rose](https://github.com/Alban1911/Rose)** community.
+This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin IDs. All assets are extracted and maintained by the **[Rose](https://gitlab.com/Alban1911/Rose)** community.
 
-**[Rose](https://github.com/Alban1911/Rose)** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
+**[Rose](https://gitlab.com/Alban1911/Rose)** is a powerful tool that allows you to unlock and use any skin in League of Legends, including legacy, limited, and exclusive skins that are no longer available through normal means.
 
 ## Features
 
@@ -55,9 +55,9 @@ skins/
 
 ## Getting Started
 
-1. **Download Rose**: Get the latest installer from our [releases page](https://github.com/Alban1911/Rose/releases/latest)
+1. **Download Rose**: Get the latest installer from our [releases page](https://gitlab.com/Alban1911/Rose/-/releases)
 2. **Install the Tool**: Follow the installation instructions
-3. **Apply Skins**: Use [Rose](https://github.com/Alban1911/Rose) to apply any skin in-game
+3. **Apply Skins**: Use [Rose](https://gitlab.com/Alban1911/Rose) to apply any skin in-game
 
 ### Contributing
 
@@ -85,4 +85,4 @@ Your support helps keep the project alive and motivates continued development!
 
 ---
 
-**Powered by [Rose](https://github.com/Alban1911/Rose)**
+**Powered by [Rose](https://gitlab.com/Alban1911/Rose)**
