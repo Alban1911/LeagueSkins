@@ -11,8 +11,6 @@
 
 ---
 
----
-
 ## About
 
 This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin **ids**. All assets are extracted and maintained by the **[Rose](https://github.com/Alban1911/Rose)** community.
