@@ -15,9 +15,7 @@
 
 ## About
 
-This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin **names** for easy browsing. All assets are extracted and maintained by the **[Rose](https://github.com/Alban1911/Rose)** community.
-
-This is the human-friendly version of the skin repository — champions and skins use readable names instead of numeric IDs, and skin files are plain `.zip` archives. The [RoseSkin](https://github.com/Alban1911/RoseSkin) repository is the optimized counterpart used directly by Rose, with numeric IDs and encrypted `.rse` files.
+This repository contains a comprehensive collection of League of Legends skin assets, organized by champion and skin **ids**. All assets are extracted and maintained by the **[Rose](https://github.com/Alban1911/Rose)** community.
 
 **[Rose](https://github.com/Alban1911/Rose)** is an open-source automatic skin changer for League of Legends that enables seamless access to all skins in the game, including legacy, limited, and exclusive skins that are no longer available through normal means.
 
@@ -34,28 +32,18 @@ This is the human-friendly version of the skin repository — champions and skin
 
 ```
 skins/
-├── {champion_name}/
-│   ├── {skin_name}/
-│   │   ├── {skin_name}.zip              # Skin asset package
-│   │   └── {skin_name} ({chroma})/      # Chroma variants (if available)
-│   │       └── {skin_name} ({chroma}).zip
-│   └── {skin_name}/                     # Skins with custom forms
-│       ├── {skin_name}.png              # Base skin preview (only for custom forms)
-│       ├── {skin_name}.zip              # Skin asset package
-│       └── {skin_name} (Form N)/        # Custom form variants
-│           ├── {skin_name} (Form N).png # Form preview image
-│           └── {skin_name} (Form N).zip # Form asset package
+├── {champion_id}/
+│   ├── {skin_id}/
+│   │   ├── {skin_id}.zip              # Skin asset package
+│   │   └── {skin_id} ({chroma})/      # Chroma variants (if available)
+│   │       └── {skin_id} ({chroma}).zip
+│   └── {skin_id}/                     # Skins with custom forms
+│       ├── {skin_id}.png              # Base skin preview (only for custom forms)
+│       ├── {skin_id}.zip              # Skin asset package
+│       └── {skin_id} (Form N)/        # Custom form variants
+│           ├── {skin_id} (Form N).png # Form preview image
+│           └── {skin_id} (Form N).zip # Form asset package
 ```
-
-### File Organization
-
-- **Champions**: Organized by champion name (e.g., Ahri, Lux, Aatrox)
-- **Skins**: Named after the skin (e.g., Academy Ahri, Elementalist Lux)
-- **Chromas**: Subfolder named with the chroma variant in parentheses (e.g., Academy Ahri (Ahri-versary))
-- **File Types**: 
-  - `.png` - Preview images (only included for skins with custom forms)
-  - `.zip` - Complete skin asset packages
-
 ## Getting Started
 
 1. **Download Rose**: Get the latest installer from our [releases page](https://github.com/Alban1911/Rose/releases/latest)
