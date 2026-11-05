@@ -1,0 +1,66 @@
+name: Skin manifest
+
+# Rose syncs its skin library from manifest.json: the git blob SHA and size of
+# every file under skins/, classic/ and resources/. Players read it from
+# raw.githubusercontent.com, which costs them no GitHub API call, then download
+# only the files that differ. It lives on its own branch, so a push to main
+# never has to fetch it first.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: skin-manifest
+  cancel-in-progress: true
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build manifest.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          COMMIT: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          gh api "repos/$REPO/git/trees/$COMMIT?recursive=1" > tree.json
+          python3 - <<'PY'
+          import json
+          import os
+
+          tree = json.load(open("tree.json", encoding="utf-8"))
+          if tree.get("truncated"):
+              raise SystemExit("the tree listing is truncated")
+          files = sorted(
+              [entry["path"], entry["sha"], entry["size"]]
+              for entry in tree["tree"]
+              if entry["type"] == "blob" and entry["path"].split("/", 1)[0] in ("skins", "classic", "resources")
+          )
+          if not files:
+              raise SystemExit("no skin files listed")
+          with open("manifest.json", "w", encoding="utf-8") as out:
+              json.dump({"version": 1, "commit": os.environ["COMMIT"], "files": files}, out, separators=(",", ":"))
+          print(f"{len(files)} files, {sum(f[2] for f in files) / 1e9:.2f} GB")
+          PY
+
+      - name: Publish it on the manifest branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          COMMIT: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          mkdir publish
+          mv manifest.json publish/
+          cd publish
+          git init -q -b manifest
+          git add manifest.json
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "Manifest of ${COMMIT}"
+          git push -q --force "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" manifest
